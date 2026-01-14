@@ -53,8 +53,17 @@ function App(){
   return(
     <div className="login-container">
       <div className="login-box">
-        <h2>LOGIN</h2>
-        <p>BIENVENUE IMANE,On se connecte ?!</p>
+        <h1 className="logo-title"
+          style={{
+            color: '#4CAF50',
+            fontSize: '89px',
+            fontWeight: 'bold'
+
+          }}>
+          LOGIN
+        </h1>
+        <p className="whitespace-pre-line"> BIENVENUE IMANE </p>
+        <p className="whitespace-pre-line"> On se Connecte?!!</p>
         <p>Pouvez vous, vous identifiez, s'il vous plait!</p>
 
         {/*}==============================*/}
